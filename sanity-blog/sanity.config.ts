@@ -7,8 +7,8 @@ const projectId = process.env.NEXT_PUBLIC_SANITY_PROJECT_ID;
 const dataset = process.env.NEXT_PUBLIC_SANITY_DATASET
 
 export default defineConfig({
-  name: 'Mc Sassy',
-  title: '-blog',
+  name: 'Mc_Sassy',
+  title: 'MC_SASSY_BLOG',
 
   projectId: 'hlkk2izz',
   dataset: 'production',
