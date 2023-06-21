@@ -13,10 +13,15 @@ export default defineType({
             title: 'Approved',
             name: 'Approved',
             type: "boolean",
+            description: "Comments won't show on the site without approval",
         }),
         defineField({
             name: 'email',
             type: 'string',
+        }),
+        defineField({
+            name: 'comment',
+            type: 'text',
         }),
         defineField({
             name: 'post',
