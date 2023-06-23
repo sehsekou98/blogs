@@ -6,7 +6,7 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
-      name: 'Title',
+      name: 'title',
       title: 'Title',
       type: 'string',
       description: "keep the title short",
