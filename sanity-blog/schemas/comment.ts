@@ -1,9 +1,9 @@
-import { defineField, defineType } from "sanity";
+import {defineField, defineType} from 'sanity'
 
 export default defineType({
     name: 'comment',
-    title: 'comment',
-    type: "document",
+    title: 'Comment',
+    type: 'document',
     fields: [
         defineField({
             name: 'name',
@@ -11,9 +11,9 @@ export default defineType({
         }),
         defineField({
             title: 'Approved',
-            name: 'Approved',
-            type: "boolean",
-            description: "Comments won't show on the site without approval",
+            name: 'approved',
+            type: 'boolean',
+            description: "Comment won't show on the site without approval."
         }),
         defineField({
             name: 'email',
@@ -26,7 +26,8 @@ export default defineType({
         defineField({
             name: 'post',
             type: 'reference',
-            to: {type: "post"},
+            to: {type: 'post'},
         }),
     ],
+
 })

@@ -3,12 +3,11 @@ import {deskTool} from 'sanity/desk'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
-
 export default defineConfig({
   name: 'Mc_Sassy',
-  title: 'MC_SASSY_BLOG',
+  title: 'Sassy-blog',
 
-  projectId: 'hlkk2izz',
+  projectId: '08hxehf9',
   dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
